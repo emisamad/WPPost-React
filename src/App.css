@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.post-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-title a:hover {
+  color: #0073aa;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.post-categories {
+  font-size: 0.95em;
+}
+
+.loading,
+.no-posts {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+}
